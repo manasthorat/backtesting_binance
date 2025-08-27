@@ -1,0 +1,32 @@
+{
+  "report": {
+    "start_time": "2019-11-27 00:00:00",
+    "end_time": "2025-08-27 00:00:00",
+    "periods": 2101,
+    "start_capital": 10000.0,
+    "ending_capital": 29932.163873663518,
+    "total_return_pct": 199.32163873663518,
+    "cagr_pct": 20.981217129413277,
+    "annual_vol_pct": 36.691824073632155,
+    "sharpe_ratio": 0.6497225631056122,
+    "sortino_ratio": 0.635023198137658,
+    "max_drawdown_pct": -13.931190661928303,
+    "max_drawdown_start": "2022-10-23 00:00:00",
+    "max_drawdown_end": "2023-10-23 00:00:00",
+    "total_trades": 40,
+    "wins": 20,
+    "losses": 20,
+    "win_rate_pct": 50.0,
+    "avg_return_per_trade_pct": 3.4224688310175466,
+    "avg_net_pnl": 498.30409684158803,
+    "avg_gross_pnl": 500.9240231959908,
+    "avg_win": 1567.6907516801052,
+    "avg_loss": -571.0825579969293,
+    "largest_win": 10076.336197529385,
+    "largest_loss": -1785.8222732555057,
+    "profit_factor": 2.745121050761517,
+    "expectancy": 498.304096841588,
+    "avg_trade_duration_hours": 1236.0,
+    "turnover_ratio": 8.37926303806302
+  }
+}

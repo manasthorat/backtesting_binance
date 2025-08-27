@@ -1,0 +1,8 @@
+numpy
+pandas
+matplotlib
+scikit-learn
+statsmodels
+TA-Lib
+backtrader
+subprocess32

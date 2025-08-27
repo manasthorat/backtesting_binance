@@ -1,0 +1,33 @@
+{
+  "api": {
+    "base_url": "https://fapi.binance.com",
+    "endpoint": "/fapi/v1/klines"
+  },
+  "symbol": "ETHUSDT",
+  "timeframe": "1d",
+  "limit": 1000,
+  "start_time": null,
+  "end_time": null,
+  "fetch_all": true,
+  "max_requests": 100,
+  "strategy": {
+    "lookback": 30
+  },
+  "execution": {
+    "commission_pct": 0.0003,
+    "slippage_pct": 0.0001,
+    "spread_pct": 0.0005,
+    "start_capital": 10000.0,
+    "position_size_fraction": 0.2,
+    "leverage": 1.0,
+    "risk_free_rate": 0.03
+  },
+  "output": {
+    "format": "csv",
+    "filename": "ethusdt_historical_data.csv",
+    "dir": "backtest_outputs",
+    "trades_filename": "trade_log.csv",
+    "metrics_filename": "metrics.json",
+    "equity_plot": "equity_curve.png"
+  }
+}
